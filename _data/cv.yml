@@ -61,6 +61,14 @@
 - title: Research Experience
   type: table
   contents:
+    - title: 'Monte Carlo methods for question answering'
+      year: 11/17-now
+      location: USA
+      description:
+        - 'Carnegie Mellon University,  Pittsburgh, PA, USA'
+        - 'Advised by <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank"><b>Dr. Barnabàs Pòczos</b></a>'
+        - 'Using Monte Carlo Tree Search to answer natural language questions, using background knowledge represented as a graph.'
+
     - title: 'Machine Learning for understanding how the brain produces speech'
       year: 05/17-now
       location: USA
