@@ -90,10 +90,16 @@
     <a href="{{ entry.slides | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Slides</a>
   {% endif %}
   {% if entry.code %}
-    <a href="{{ entry.code }}" target="_blank">Code</a>
+    <a href="{{entry.code}}" target="_blank">Code</a>
   {% endif %}
   {% if entry.arxiv %}
     <a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>
+  {% endif %}
+    {% if entry.website %}
+    <a href="{{entry.website}}" target="_blank">Website</a>
+  {% endif %}
+    {% if entry.presentation %}
+    <a href="{{entry.presentation}}" target="_blank">Presentation</a>
   {% endif %}
   </span>
 

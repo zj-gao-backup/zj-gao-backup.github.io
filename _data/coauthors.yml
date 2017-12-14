@@ -1,80 +1,41 @@
-Betteridge:
-  url: http://www.cs.cmu.edu/~jbetter/
+Faloutsos:
+  url: http://www.cs.cmu.edu/~christos/
 
-Blum:
-  url: http://www.cs.cmu.edu/~avrim/
+Fu:
+  url: http://people.oregonstate.edu/~fuxia/
 
-Carlson:
-  url: http://www.cs.cmu.edu/~acarlson/
+Huang:
+  url: https://sites.google.com/a/umn.edu/huang663/
 
-Chatzis:
-  url: https://www.cut.ac.cy/eecei/staff/sotirios.chatzis/
+Gordon:
+  url: http://www.cs.cmu.edu/~ggordon/
 
-Chen:
-  url: http://www.cs.cmu.edu/~xinleic/
-
-Cohen:
-  url: http://www.cs.cmu.edu/~wcohen/
-
-Dalvi:
-  url: http://allenai.org/team/bhavanad/
-
-Dubey:
-  url: https://sites.google.com/site/kumaravinavadubey/
-
-Gardner:
-  url: http://www.cs.cmu.edu/~mg1/
-
-Greaves:
-  url: http://www.malcolmgreaves.io/
-
-Gupta:
-  url: http://www.cs.cmu.edu/~abhinavg/
-
-Horvitz:
-  url: http://erichorvitz.com
-
-Hruschka Jr:
-  url: http://www2.dc.ufscar.br/~estevam/
-
-Kapoor:
-  url: https://www.microsoft.com/en-us/research/people/akapoor/
-
-Krishnamurthy:
-  url: http://allenai.org/team/jayantk/
-
-Lao:
-  url: http://www.cs.cmu.edu/~nlao/
-
-Mazaitis:
-  url: http://www.cs.cmu.edu/~krivard/
+Leordeanu:
+  url: https://sites.google.com/site/mariusleordeanu/home
 
 Mitchell:
   url: http://www.cs.cmu.edu/~tom/
 
-Nakashole:
-  url: http://nakashole.com/
+Negrinho:
+  url: https://www.cs.cmu.edu/~negrinho/
 
-Poon:
-  url: https://www.microsoft.com/en-us/research/people/hoifung/
+Papalexakis:
+  url: http://www.cs.ucr.edu/~epapalex/
 
-Pratim Talukdar:
+Poczos:
+  url: http://www.cs.cmu.edu/~bapoczos/
+
+Sidiropoulo:
+  url: http://people.ece.umn.edu/~nikos/
+
+Smola:
+  url: https://alex.smola.org/
+
+Song:
+  url: http://www.cs.cmu.edu/~hyunahs/
+
+Talukdar:
   url: http://talukdar.net/
 
-Ritter:
-  url: http://aritter.github.io/
-
-Samadi:
-  url: http://www.mehdisamadi.com/
-
-Settles:
-  url: http://burrsettles.com/
-
-Wang:
-  url: http://www.cs.cmu.edu/~rcwang/
-
-Welling:
-  url: http://staff.psc.edu/welling/
-
-Wijaya:
-  url: http://www.cs.cmu.edu/~dwijaya/
+Zhao:
+  url: https://www.cs.cmu.edu/~hzhao1/

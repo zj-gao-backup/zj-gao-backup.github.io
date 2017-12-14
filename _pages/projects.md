@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: some of the things I have worked on during my PhD
+description: some research and technical projects I worked on
 ---
 
 {% for project in site.projects %}

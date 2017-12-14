@@ -2,245 +2,166 @@
   type: map
   contents:
     - name: Full Name
-      value: Emmanouil Antonios Platanios
+      value: Otilia Stretcu
     - name: Date of Birth
-      value: 7th July 1991
+      value: 25th January 1991
     - name: Nationality
-      value: Greek
+      value: Romanian
     - name: Languages
-      value: Greek (native), English (fluent), and German (intermediate)
+      value: Romanian (native), English (fluent), German (beginner), Spanish (beginner), Swedish (beginner)
 
 - title: Research Areas
   type: list
   contents:
-    - Theoretical artificial intelligence and machine learning (I am currently focusing on unsupervised and semi-supervised learning and more specifically, I am trying to introduce self-reflection in the context of machine learning)
-    - Applications of artificial intelligence and machine learning to natural language processing, robotics, computer vision and finance
-
+    - My PhD research focuses on developing Machine Learning methods applied in Neuroscience, with the goal of understanding how the brain understands language and controls speech.
+    - I am also interested in creating AI agents that can understand language and reason, therefore I am also working on Natural Language Processing with a focus on question answering and problem solving.
 - title: Education
   type: table
   contents:
     - title: Carnegie Mellon University – Ph.D. in Machine Learning
-      year: 2013-16
+      year: 2015-now
       location: USA
       description:
-        - 'Awarded the <b>CMU Presidential Fellowship</b>'
-        - '<u>GPA:</u> <b>4.18</b> (4.0 scale)'
-        - '<u>Advisor:</u> <a href="http://www.cs.cmu.edu/~tom/" target="_blank"><b>Prof. Tom M. Mitchell</b></a>'
-        - 'I work on the <a href="http://rtw.ml.cmu.edu/" target="_blank"><b>Never Ending Language Learning (NELL)</b></a> project'
-        - title: 'I do research on topics related to <b>self-reflection in machine learning</b>:'
-          contents:
-          - 'I have developed multiple methods for using unlabeled data to estimate the accuracies of several different classifiers performing the same task, that I have presented at <b>Uncertainty in Artificial Intelligence (UAI)</b> in 2014, <b>International Conference in Machine Learning (ICML)</b> in 2016, and will present at <b>Neural Information Processing Systems (NIPS)</b> in 2017.'
-          - 'I am developing a self-reflection mechanism for machine learning systems and I am applying it in NELL'
-          - 'I am working on a new framework for learning where agreement among multiple agents is the objective'
-    - title: Carnegie Mellon University – M.S. in Machine Learning
-      year: 2013-15
-      location: USA
-      description:
-        - '<u>GPA:</u> <b>4.18</b> (4.0 scale)'
-        - '<u>Advisor:</u> <a href="http://www.cs.cmu.edu/~tom/" target="_blank"><b>Prof. Tom M. Mitchell</b></a>'
-        - '<u>Thesis:</u> <b>Estimating Accuracy from Unlabeled Data</b>'
-        - 'Master’s degree requirements completed while working towards obtaining my Ph.D. in machine learning'
-    - title: Imperial College London – M.Eng. and ACGI in Electrical and Electronic Engineering
-      year: 2009-13
+        - 'Co-advised by <a href="http://www.cs.cmu.edu/~tom/" target="_blank"><b>Prof. Tom M. Mitchell</b></a> and <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank"><b>Dr. Barnabàs Pòczos</b></a>'
+        - 'GPA: 4.0 (4.0 scale)'
+    - title: University of Cambridge – Master of Philosophy (M.Phil.) in Advanced Computer Science
+      year: 2014-15
       location: UK
       description:
-        - 'Integrated Bachelor’s and Master’s degree'
-        - '<b>Dean’s List</b> for exceptional academic performance (all four years)'
-        - title: '<u>Grade:</u> 91.67% (ranked in top 1% of class) with <b>92.37%</b> on the final exams – <b>First-Class Honors Degree</b>'
-          contents:
-            - 'Equivalent to <b>4.0 GPA</b> in the USA academic system'
-        - title: '<u>Thesis Title:</u> "Human Motion Classification Using Statistical Machine Learning Methods"'
-          contents:
-            - 'Awarded the <b>Sir Bruce White prize in engineering</b> for the best final year project'
-        - title: '<u>Third Year Summer Research Project:</u> "Bayesian Machine Learning Methodologies for Modeling Time Series with High Volatility"'
-          contents:
-            - 'Volatility modeling and prediction in a multitude of applications with significance both for industry (e.g. finance) and academia'
-    # - title: Geitonas School – International Baccalaureate
-    #   year: 2007-09
-    #   location: Greece
-    #   description:
-    #     - 'Received a <b>Certificate of Excellence</b> from the Greek Ministry of Education and Religious Affairs'
+        - 'Advised by <a href="https://www.cl.cam.ac.uk/~pl219/" target="_blank"><b>Prof. Pietro Lió</b></a>'
+        - 'Thesis: Machine Learning Methods for Computational Microscopy'
+        - 'Grade: Pass with Distinction'
+    - title: Politehnica University of Timisoara – B.Eng. in Computer Science and Information Technology
+      year: 2010-14
+      location: Romania
+      description:
+        - 'GPA: 9.98 (scale 10.0)'
+        - '1<sup>st</sup> out of 140 students'
+    - title: <b>Linköping University – Erasmus Exchange Student</b>
+      year: 2012-13
+      location: Sweden
 
 - title: Work Experience
   type: table
   contents:
-    - title: 'Research Consultant at Cubist Systematic Strategies'
-      year: 2016-17
+    - title: 'Software Engineering Intern at Google X'
+      year: Summer 2016
       location: USA
       description:
-        - 'Worked for the Advanced Methods Groups (AMG) in new machine learning-driven approaches for end-to-end algorithmic trading systems'
-        - 'Developed the main pipeline for trading algorithms research and for integrating these algorithms in a new production system'
-    - title: 'Research Intern at Microsoft Research'
-      year: 2015
+        - '<a href="https://www.google.com/selfdrivingcar/" target="_blank"><b>Self-Driving Car team</b></a> in <a href="https://x.company/" target="_blank"><b>Google X</b></a> , Mountain View, CA, USA'
+        - 'Undisclosed Machine Learning projects for the Google self-driving car.'
+    - title: 'Software Developer Intern at Microsoft'
+      year: Summer 2014
       location: USA
       description:
-        - '<u>Manager:</u> <a href="http://erichorvitz.com" target="_blank"><b>Dr. Eric Horvitz</b></a>, Distinguished Scientist and Managing Director of Microsoft Research'
-        - '<u>Collaborators:</u> <a href="https://www.microsoft.com/en-us/research/people/hoifung/" target="_blank"><b>Dr. Hoifung Poon</b></a> and <a href="https://www.microsoft.com/en-us/research/people/akapoor/" target="_blank"><b>Dr. Ashish Kapoor</b></a>'
-        - '<u>First 3 months:</u> Developed a probabilistic logic-based approach for accuracy estimation using unlabeled data, as part of the Literome Project'
-        - '<u>Last 3 months:</u> Active learning amidst logical knowledge'
-    - title: 'Co-Founder, President and Chief Technology Officer (CTO) at Holic'
-      year: 2010-13
-      location: Greece
-      description:
-        - 'Development of an intelligent news reader application'
-        - 'Development of algorithms utilizing advanced nonparametric Bayesian models for clustering news articles and for user profiling'
-        - title: 'Received €400,000 funding from the following investors:'
-          contents:
-            - 'Dr. John Coustas, President & CEO of Danaos Corporation'
-            - 'Mr. Leon Yohai, Founder & CEO of ZuluTrade'
-    - title: 'Founder of Project Protasis – Forest Protection'
-      year: 2008-10
-      location: Greece
-      description:
-        - 'Development of a forest fire detection and prevention system'
-        - 'Development of software (involving use of neural networks for recognizing fire and smoke in photos) and related hardware'
-        - 'Prototype installed in <i>“Alsos Syggrou”</i>, a wooded area in Athens, funded by the Greek government'
-        - 'Patent approved in Greece (<b>Patent #: 20110100016</b>) and international patent pending approval'
-        - 'Interviewed by CNN, as well as several newspapers, magazines and other TV channels, regarding this project'
-        - 'Won the 2<sup>nd</sup> place in the <b>Microsoft Imagine Cup 2009</b> Greek Finals with this project'
-    - title: 'Web Designer and Software Developer at Curtainmakers S.A.'
-      year: 2010
-      location: Greece
-    - title: 'Software Developer at vWorker.com'
-      year: 2009-10
-      location: Greece
-    - title: 'Founder of Project Protasis – Home Automation'
-      year: 2007-09
-      location: Greece
-      description: 
-        - 'Development of a smart home automation system that controls all electrical appliances, heating systems and water systems and aims to reduce domestic energy consumption while making the lives of homeowners as comfortable as possible'
-        - 'Development of software, employing several machine learning algorithms'
-        - 'Funded by the Greek government and more specifically, by the Organization of School Buildings'
-        - 'Interviewed by NBC, as well as several newspapers, magazines and other TV channels, regarding this project'
-        - 'Won the <b>Microsoft Imagine Cup 2008</b> Greek Finals with this project and represented Greece in the Imagine Cup 2008 Worldwide Finals, in Paris, France, competing against teams from universities, at age of only 16 and having worked without a team or a mentor'
-    - title: 'Software Developer and I.T. Professional at Sigma Group Inc.'
-      year: 2007-08
+        - '<a href="https://www.microsoft.com/en-us/windows/cortana" target="_blank"><b>Cortana team</b></a> at <a href="https://www.microsoft.com/en-us/" target="_blank"><b>Microsoft Corporation</b></a>, Redmond, WA, USA'
+        - 'Undisclosed Machine Learning project for Cortana, Windows Phone’s digital personal assistant.'
+
+
+- title: Research Experience
+  type: table
+  contents:
+    - title: 'Machine Learning for understanding how the brain produces speech'
+      year: 05/17-now
       location: USA
-    - title: 'Software Developer and I.T. Professional at Embiria S.A.'
-      year: 2006
+      description:
+        - 'Carnegie Mellon University,  Pittsburgh, PA, USA'
+        - 'Advised by <a href="http://www.cs.cmu.edu/~tom/" target="_blank"><b>Prof. Tom M. Mitchell</b></a> and <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank"><b>Dr. Barnabàs Pòczos</b></a>'
+        - 'Developing Machine Learning models that analyze neural activity signals (ECoG and Local Field Potentials) in order to understand how different properties of speech are represented in the brain, which can have major consequences for the treatment of many neurological disorders, such as Parkinson’s disease.'
+    - title: 'Machine Learning for understanding meaning representation in the brain'
+      year: 11/16-05/17
       location: USA
+      description:
+        - 'Carnegie Mellon University, Pittsburgh, PA, USA'
+        - 'Advised by <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank"><b>Dr. Barnabàs Pòczos</b></a> and <a href="http://www.cs.cmu.edu/~tom/" target="_blank"><b>Prof. Tom M. Mitchell</b></a>'
+        - 'Developed Machine Learning models that combine neural activity time series of different modalities. The goal was to use brain activity recordings, such as fMRI, EEG and MEG, to understand how the brain processes language. I focused on Deep Learning models, such as recurrent neural networks.'
+    - title: 'Computer Vision for unsupervised object discovery in video'
+      year: 2014-15
+      location: Romania
+      description:
+        - 'Carnegie Mellon University, Pittsburgh, PA, USA'
+        - 'Advised by <a href="https://sites.google.com/site/mariusleordeanu/home" target="_blank"><b>Dr. Marius Leordeanu</b></a>'
+        - 'Unsupervised object discovery in video based on multiple frames matching. We also proposed a fast method for detecting the main object of interest in a video, titled VideoPCA.'
+    - title: 'Research Internship in Machine Learning at EPFL'
+      year: Summer 2013
+      location: Switzerland
+      description:
+        - 'École Polytechnique Fédérale de Lausanne, Laboratory for Probabilistic Machine Learning'
+        - 'Advised by <a href="https://www.linkedin.com/in/matthias-seeger-3010b765" target="_blank"><b>Dr. Matthias Seeger</b></a>'
+        - 'Used topic models to explore the correlation between social media messages from Twitter and the location of the users, with applications to user profiling, topic tracking and content recommendation. I was responsible with applying various machine learning models and parallelizing the code in order to scale well.'
+    - title: 'Research for Undergraduates Program'
+      year: Summer 2013
+      location: Romania
+      description:
+        - 'Politehnica University of Timisoara, Romania'
+        - 'Advised by <b>Prof. Emilia Petrisor</b>'
+        - 'Implemented algorithms for spectral clustering of nodes in a graph, based on minimum graph cut, with applications to data mining and statistics, such as clustering information from documents on the web and medical images segmentation.'
 
 - title: Honors and Awards
   type: table
   contents:
-    - year: 2017
-      items: 
-        - 'Won 2<sup>nd</sup> place in the CMU NeuroHackathon'
-    - year: 2016
-      items: 
-        - 'Awarded the <b>CMU Presidential Fellowship</b>'
-    - year: 2010-13
+    - year: Scholarships
       items:
-        - 'Awarded the <b>Sir Bruce White prize</b> in engineering for the <b>best M.Eng. thesis</b> at Imperial College London'
-        - '<b>Dean’s List</b> at Imperial College London, for exceptional academic performance (all four years)'
-    - year: 2010
+        - '<a href="https://www.gatescambridge.org/" target="_blank"><b>Gates Cambridge Scholarship</b></a> (2014)'
+        - '<a href="https://www.womentechmakers.com/scholars" target="_blank"><b>Google Anita Borg Memorial Scholarship</b></a> (2013)'
+        - '<a href="https://www.iie.org/Programs/GE-Foundation-Scholar-Leaders" target="_blank"><b>GE (General Electric) Foundation Scholar Leaders Program </b></a> (2012)'
+    - year: Awards
       items: 
-        - 'Nominated for the RAE (Royal Academy of Engineering) presentation skills award'
-        - '<b>"Roll of Honor"</b> of the Electrical and Electronic Engineering department of Imperial College London, for the best software design project in the year'
-    - year: 2009
-      items:
-        - 'Awarded a congratulatory diploma for my work on “Project Protasis – Home Automation” by <b>UNESCO</b>'
-        - 'Awarded an <b>honorary plaque</b> by the <b>Minister of Education and Religious Affairs</b> for honoring my country internationally'
-    - year: 2007-08
-      items:
-        - 'Awarded a <b>full scholarship</b> (of about €12,000) by “Geitonas School”, for honoring my school internationally'
-        - 'Had a <b>computer science laboratory named after me</b> in “Geitonas School”, for honoring my school internationally'
-        - 'Awarded €1,000 by the <b>President of the Greek Parliament</b>, for honoring my country internationally'
-        - 'Awarded an <b>honorary plaque</b> by the Mayor of my city, Vari, in Greece, for honoring my country internationally'
-        - 'Represented Greece in the <b>Microsoft Imagine Cup 2008 Worldwide Finals</b>, in Paris, France, with "Project Protasis - Home Automation"'
-        - 'Won the Microsoft Imagine Cup 2008 Greek Finals with "Project Protasis - Home Automation", competing against teams from universities, at age of only 16 and having worked without a team or a mentor (also won the 2<sup>nd</sup> place in the Microsoft Imagine Cup 2009 Greek Finals with "Project Protasis - Forest Protection")'
-    - year: 2007
-      items: 
-        - 'Received a <b>Certificate of Excellence</b> for the school year 2006-07 from the Greek Ministry of Education and Religious Affairs'
-        - 'Won the 3<sup>rd</sup> place (bronze medal) in the <b>Greek Mathematics Olympiad</b>, organized by the Hellenic Mathematical Society'
-    - year: 2003-07
-      items: 
-        - 'Won a total of <b>11 scholarships</b> and competitions in the fields of mathematics, sciences and computer science'
-
-# - title: Research Publications
-#   type: list
-#   contents:
-#     - '<b>Emmanouil A. Platanios</b>, Hoifung Poon, Eric Horvitz, and Tom M. Mitchell, "Estimating Accuracy from Unlabeled Data: A Probabilistic Logic Approach", in the Neural Information Processing Systems (<b>NIPS</b>) conference proceedings, 2017'
-#     - '<b>Emmanouil A. Platanios</b>, Avinava Dubey, and Tom M. Mitchell, "Estimating Accuracy from Unlabeled Data: A Bayesian Approach", in the International Conference in Machine Learning (<b>ICML</b>) conference proceedings, 2016'
-#     - '<b>Emmanouil A. Platanios</b>, "Estimating Accuracy from Unlabeled Data", <b>Master’s Thesis</b> at <b>Carnegie Mellon University</b>, 2015'
-#     - 'Tom M. Mitchell, William Cohen, Estevam Hruschka, Partha Talukdar, Justin Betteridge, Andrew Carlson, Bhavana Dalvi, Matt Gardner, Bryan Kisiel, Jayant Krishnamurthy, Ni Lao, Kathryn Mazaitis, Tahir Mohammad, Ndapa Nakashole, <b>Emmanouil A. Platanios</b>, Alan Ritter, Mehdi Samadi, Burr Settles, Richard Wang, Derry Wijaya, Abhinav Gupta, Xinlei Chen, Abulhair Saparov, Malcolm Greaves, and Max Welling, "Never-Ending Learning," in the AAAI Conference on Artificial Intelligence (<b>AAAI</b>), 2015'
-#     - '<b>Emmanouil A. Platanios</b>, Avrim Blum, and Tom M. Mitchell, "Estimating Accuracy from Unlabeled Data", in the Uncertainty in Artificial Intelligence (<b>UAI</b>) conference proceedings, 2014'
-#     - '<b>Emmanouil A. Platanios</b> and Sotirios P. Chatzis, "A Mixture Gaussian Process Conditional Heteroscedasticity Model with Power-Law Nature", in IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>), vol. 36(5), pp. 888-900, 2014'
-#     - '<b>Emmanouil A. Platanios</b> and Sotirios P. Chatzis, "Nonparametric Mixtures of Multi-Output Heteroscedastic Gaussian Processes for Volatility Modeling", in the "Modern Nonparametric Methods in Machine Learning" Neural Information Processing Systems (<b>NIPS</b>) workshop, 2012'
-
-- title: Major Talks
-  type: table
-  contents:
-    - title: '<i>Estimating Accuracy from Unlabeled Data</i>'
-      year: 2014-16
-      location: USA
-      description:
-        - 'International Conference in Machine Learning (<b>ICML</b>) conference'
-        - 'Uncertainty in Artificial Intelligence (<b>UAI</b>) conference'
-        - 'AI Lunch at Stanford University'
-        - 'Machine Learning Lunch at Carnegie Mellon University'
-    - title: '<i>Nonparametric Mixtures of Multi-Output Heteroscedastic Gaussian Processes</i>'
-      year: 2012
-      location: USA
-      description:
-        - '"Nonparametric Methods in Machine Learning" Neural Information Processing Systems (<b>NIPS</b>) workshop'
-    - title: '<i>Project Protasis - Forest Protection</i>'
-      year: 2009
-      location: Greece
-      description:
-        - '<b>Microsoft Hellas Headquarters</b> in Athens, Greece'
-        - '<b>Ministry of Transportation</b> of the Greek government, in Athens (the Ministry later funded a pilot program)'
-    - title: '<i>Project Protasis - Home Automation</i>'
-      year: 2008-09
-      location: Greece, France
-      description:
-        - '<b>Microsoft Hellas Headquarters</b> in Athens, Greece'
-        - '<b>Louvre Museum</b> in Paris, France, as part of Imagine Cup'
-        - '"International Conference on Climate Change and Challenges for the Future Generations", organized by UNESCO, in Athens'
-        - '<b>Organization of School Buildings</b> of the Greek government, in Athens (later received funding for a pilot program from the Ministry of Education and Religious Affairs which administers this organization)'
-        - '"73<sup>rd</sup> Thessaloniki International Fair", in Thessaloniki'
-        - '"Generation Next 0-18" fair, in Athens'
-        - '"4<sup>th</sup> International Conference on Information and Communication Technologies in Bio and Earth Sciences" (HAICTA 2008), in Athens'
+        - 'Carnegie Mellon University Neurohackathon: 2<sup>nd</sup> place (2017)'
+        - 'KTH University Programming Challenge, Sweden: Top 10 contestants (2013)'
+        - 'ACM International Collegiate Programming Contest (<b>ACM-ICPC</b>): Honorable Mention in Southeastern European Regional (2013, 2012, 2011)'
+        - '<b>Microsoft Imagine Cup</b>: Top 20 in the World Finals (2012), 1<sup>st</sup> team in the Romanian National Finals (2012)'
+        - '<b>Romanian National Olympiad in Informatics</b>: Gold Medal (2008), Bronze Medal (2010), 1<sup>st</sup> Place (2004), 2<sup>nd</sup> Place (2005), Honorable Mention (2010, 2008, 2007, 2003)'
+        - 'Kangaroo International Mathematical Competition: 2<sup>nd</sup> prize in Romanian National Finals (2009, 2010)'
 
 - title: Teaching Experience
   type: table
   contents:
-    - title: '<b>Teaching Assistant</b> for the <b>10-701/15-781</b> Machine Learning graduate-level course at <b>Carnegie Mellon University</b>'
-      year: 2014, 16
+    - title: '<b>Teaching Assistant</b> for <b>Topics in Deep Learning</b>'
+      year: Fall 2017
       location: USA
       description:
-        - Did this for two semesters, one in 2014 and one in 2016
-        - Gave some lectures and some recitation lectures
-        - Wrote and graded homework assignments and exams
+        - Graduate level deep learning class <a href="http://www.cs.cmu.edu/~rsalakhu/10707/" target="_blank"><b>10-707 Topics in Deep Learning</b></a> at Carnegie Mellon University
+        - Taught by <a href="https://www.cs.cmu.edu/~rsalakhu/" target="_blank"><b>Prof. Ruslan Salakhutdinov</b></a>
+    - title: 'Teaching algorithms for competitive programming'
+      year: 2013-14
+      location: Romania
+      description:
+        - Co-organized a competitive programming seminar at Politehnica University of Timisoara for university and high-school students interested to train for algorithmic competitions (e.g. ACM-ICPC, informatics olympiad).
+        - Taught algorithms and data structures used in competitive programming, designed and solved practice problems and internal competitions.
 
-- title: Development skills
+- title: Computer skills
   type: list
   contents:
-    - '<u>High Level Programming Languages:</u> Scala, Java, C#, C, C++, Python, Pascal, Prolog, MATLAB, Mathematica, JavaScript'
-    - '<u>Low Level Programming Languages:</u> Intel 80x86 Assembly, ARM Assembly, AVR Assembly'
-    - '<u>Programming Environments (IDEs):</u> IntelliJ IDEA, Visual Studio, MATLAB, Eclipse, NetBeans, Mathematica, SWI-Prolog IDE'
-    - '<u>Database Systems:</u> PostgreSQL, MS SQL Server, MySQL'
+    - 'Programming languages: C, C++, Python, Matlab, Java.'
+    - 'Data Structures and Algorithms: Familiarity with concepts used in algorithmic competitions and machine learning research.'
+    - 'Frameworks: Tensorflow, NumPy, SciPy, Pandas.'
+    - 'Database Systems: MySQL.'
+
+- title: Technical Projects
+  type: list
+  contents:
+    - '<b>LiveX Learning Platform</b>: Tutoring system for kindergarten and school children based on a software platform that runs in the cloud, Windows Phone 7 devices and a set of electronic learning cubes called “IQubes” (our hardware invention) as part of team IQube that competed in the world finals of the Microsoft Imagine Cup competition.'
+    - '<b>Face and Hand Gesture Recognition for Human - Computer Interaction</b>: Framework for C++ developers to extend their graphical user interfaces with more natural means of communication. Works in real-time using a computer web camera.'
+    - '<b>Public Transport Route Recommendation</b>: Python application for the Timisoara city public transport system using real-time information from GPS devices installed on public transport vehicles. Overlays optimal routes suggestions on Google Maps (before they supported such a feature).'
+    - '<b>Handwritten digits recognition</b>: C library implementing various linear algebra methods.'
+
+- title: Leadership and Volunteering Activities
+  type: table
+  contents:
+    - year: 2016-now
+      title: 'President of the Romanian Students Association at Carnegie Mellon University'
+    - year: 2016-now
+      title: 'Member of the Education Review Committee of the Machine Learning Department at Carnegie Mellon University, which aims to improve the PhD program'
+    - year: 2011-12
+      title: 'Student representative in the faculty leadership board at Politehnica University'
+    - year: 2010-11
+      title: 'Volunteer for AIESEC, international youth organization'
+    - year: 2010-12
+      title: 'Volunteer for Liga AC, student organization at Politehnica University'
 
 - title: Other Interests
   type: list
   contents:
-    - '<u>Sports:</u> Tennis, Squash, Winter Skiing, Basketball, Sailing, and Windsurfing'
-    - '<u>Hobbies:</u> Travelling, Philosophy, and Politics (I also really want to learn to play the Guitar)'
-
-- title: Community Service
-  type: table
-  contents:
-    - year: 2009
-      items: 
-        - 'Volunteer service at the Lavrion refugee center, in Athens, Greece'
-    - year: 2008
-      items: 
-        - 'Reforestation of mountainside in Rafina, Greece'
-        - 'Volunteer service for the International Baccalaureate Organization (IBO) training workshop'
-        - '13<sup>th</sup> Annual Underwater and Beach Cleanup in Athens, Greece'
-        - 'Organizing member of "Christmas Bazaar" (fund raiser project)'
-        - 'Organizing member of "Love Feast" (feast to celebrate family values and raise funds for the victims of the then recent fires in Greece)'
-    - year: 2007
-      items:
-        - 'Reforestation in Mani, Greece'
-        - 'Volunteer service at the "AQUA GALA" event for children who are physically challenged, for the "Hellenic Society for Disabled Children"'
+    - 'Sports: squash, volleyball, tennis, climbing, hiking'
+    - 'Hobbies: traveling, painting, movies'

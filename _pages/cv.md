@@ -42,41 +42,43 @@ title: cv
 		  {% endif %}
 		  	<div>
 		  		{% if content.title %}
-				  	<span class="title">{{content.title}}</span>
 				  	{% if content.description %}
+				  	    <span class="title">{{content.title}}</span>
 					  	<ul class="items">
-	            {% for item in content.description %}
-	              <li>
-	              	{% if item.contents %}
-	              		<span class="item-title">{{ item.title }}</span>
-	              		<ul class="subitems">
-				            {% for subitem in item.contents %}
-				              <li><span class="subitem">{{ subitem }}</span></li>
-				            {% endfor %}
-				            </ul>
-	              	{% else %}
-	              		<span class="item">{{ item }}</span>
-	              	{% endif %}
-	              </li>
-	            {% endfor %}
+                        {% for item in content.description %}
+                          <li>
+                            {% if item.contents %}
+                                <span class="item-title">{{ item.title }}</span>
+                                <ul class="subitems">
+                                    {% for subitem in item.contents %}
+                                      <li><span class="subitem">{{ subitem }}</span></li>
+                                    {% endfor %}
+                                    </ul>
+                            {% else %}
+                                <span class="item">{{ item }}</span>
+                            {% endif %}
+                          </li>
+                        {% endfor %}
 					  	</ul>
+				  	{% else %}
+                        <span class="plain-title">{{content.title}}</span>
 				  	{% endif %}
 				  {% else %}
 				    <ul class="items">
-            {% for item in content.items %}
-              <li>
-              	{% if item.contents %}
-              		<span class="item-title">{{ item.title }}</span>
-              		<ul class="subitems">
-			            {% for subitem in item.contents %}
-			              <li><span class="subitem">{{ subitem }}</span></li>
-			            {% endfor %}
-			            </ul>
-              	{% else %}
-              		<span class="item">{{ item }}</span>
-              	{% endif %}
-              </li>
-            {% endfor %}
+                    {% for item in content.items %}
+                      <li>
+                        {% if item.contents %}
+                            <span class="item-title">{{ item.title }}</span>
+                            <ul class="subitems">
+                                {% for subitem in item.contents %}
+                                  <li><span class="subitem">{{ subitem }}</span></li>
+                                {% endfor %}
+                                </ul>
+                        {% else %}
+                            <span class="item">{{ item }}</span>
+                        {% endif %}
+                      </li>
+                    {% endfor %}
 				  	</ul>
 				  {% endif %}
 			  </div>

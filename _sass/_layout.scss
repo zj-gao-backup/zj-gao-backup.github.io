@@ -515,7 +515,7 @@
 .thumbnail img {
   outline: 1px #e2e2e2 solid;
   outline-offset: -1px;
-  height: auto;
+  height: 100%;
   position: relative;
   // left: -25%;
   // top: -5%;
@@ -643,7 +643,7 @@
 
     .location {
       border-top: 1px solid #ddd;
-      font-size: 30px;
+      font-size: 28px;
       color: $grey-color-light;
       margin: 0.6em -3em -2.5ex -4em;
       padding-top: 1ex;
@@ -662,6 +662,14 @@
       list-style: none;
       font-size: 15px;
       font-weight: 600;
+      margin-bottom: 5px;
+      margin-top: 10px;
+    }
+
+    .plain-title {
+      list-style: none;
+      font-size: 15px;
+      font-weight: 100;
       margin-bottom: 5px;
       margin-top: 10px;
     }
