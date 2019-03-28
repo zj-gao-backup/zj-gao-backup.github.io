@@ -3,8 +3,8 @@
   contents:
     - name: Full Name
       value: Otilia Stretcu
-    - name: Date of Birth
-      value: 25th January 1991
+#    - name: Date of Birth
+#      value: 25th January 1991
     - name: Nationality
       value: Romanian
     - name: Languages
@@ -13,8 +13,9 @@
 - title: Research Areas
   type: list
   contents:
-    - My PhD research focuses on developing Machine Learning methods applied in Neuroscience, with the goal of understanding how the brain understands language and controls speech.
-    - I am also interested in creating AI agents that can understand language and reason, therefore I am also working on Natural Language Processing with a focus on question answering and problem solving.
+    - My PhD research focuses on developing machine learning methods applied in neuroscience, with the goal of understanding how the brain understands language and controls speech.
+    - I am also passionate about drawing inspiration from the human brain and intuition in order to develop new methods for machine learning (mainly focused on semi-supervised and curriculum learning).
+    - I am also interested in creating AI agents that can understand language and reason, therefore I am also working on natural language processing with a focus on question answering and problem solving.
 - title: Education
   type: table
   contents:
@@ -31,19 +32,25 @@
         - 'Advised by <a href="https://www.cl.cam.ac.uk/~pl219/" target="_blank"><b>Prof. Pietro Lió</b></a>'
         - 'Thesis: Machine Learning Methods for Computational Microscopy'
         - 'Grade: Pass with Distinction'
+    - title: <b>Linköping University – Erasmus Exchange Student</b>
+      year: 2012-13
+      location: Sweden
     - title: Politehnica University of Timisoara – B.Eng. in Computer Science and Information Technology
       year: 2010-14
       location: Romania
       description:
         - 'GPA: 9.98 (scale 10.0)'
         - '1<sup>st</sup> out of 140 students'
-    - title: <b>Linköping University – Erasmus Exchange Student</b>
-      year: 2012-13
-      location: Sweden
 
 - title: Work Experience
   type: table
   contents:
+    - title: 'Software Engineering Intern at Google Research'
+      year: 'Summer 2018 <br/> &emsp;&emsp;  & <br/> Spring 2019'
+      location: USA
+      description:
+      - '<a href="https://ai.googleblog.com/2016/10/graph-powered-machine-learning-at-google.html" target="_blank"><b>Expander team</b></a> in <a href="https://ai.google/research/" target="_blank"><b>Google Research</b></a> , Mountain View, CA, USA'
+      - 'Research in semi-supervised learning combining deep learning and graphs.'
     - title: 'Software Engineering Intern at Google X'
       year: Summer 2016
       location: USA
@@ -108,6 +115,9 @@
 - title: Honors and Awards
   type: table
   contents:
+    - year: Fellowships
+      items:
+      - 'Center for Machine Learning and Health (<a href="https://www.cs.cmu.edu/cmlh-cfp" target="_blank"><b>CMLH) Fellowship in Digital Health</b></a> (2018)'
     - year: Scholarships
       items:
         - '<a href="https://www.gatescambridge.org/" target="_blank"><b>Gates Cambridge Scholarship</b></a> (2014)'
@@ -125,6 +135,12 @@
 - title: Teaching Experience
   type: table
   contents:
+    - title: '<b>Teaching Assistant</b> for <b>Graduate Machine Learning</b>'
+      year: Spring 2018
+      location: USA
+      description:
+      - Graduate level introduction to machine learning class <a href="http://www.cs.cmu.edu/~pradeepr/courses/701/2018-spring/" target="_blank"><b>10-701 Graduate Machine Learning</b></a> at Carnegie Mellon University
+      - Taught by <a href="https://www.cs.cmu.edu/~pradeepr/" target="_blank"><b>Prof. Pradeep Ravikumar</b></a> and <a href="https://www.cs.cmu.edu/~mmv/" target="_blank"><b>Prof. Manuela Veloso</b></a>
     - title: '<b>Teaching Assistant</b> for <b>Topics in Deep Learning</b>'
       year: Fall 2017
       location: USA
@@ -157,16 +173,22 @@
 - title: Leadership and Volunteering Activities
   type: table
   contents:
+    - year: 2018-present
+      title: 'Founding member of the <a href="http://cmu.aiplus.club/" target="_blank"><b> AI+ Club</b></a>  at Carnegie Mellon University (CMU).'
+    - year: 2018-present
+      title: 'Treasurer of the Romanian Students Association at CMU.'
+    - year: 2016-present
+      title: 'Member of the Doctoral Review Committee of the Machine Learning Department at CMU.'
+    - year: 2016-2018
+      title: 'President of the Romanian Students Association at CMU.'
     - year: 2016-now
-      title: 'President of the Romanian Students Association at Carnegie Mellon University'
-    - year: 2016-now
-      title: 'Member of the Education Review Committee of the Machine Learning Department at Carnegie Mellon University, which aims to improve the PhD program'
+      title: 'Member of the Education Review Committee of the Machine Learning Department at CMU, which aims to improve the PhD program.'
     - year: 2011-12
-      title: 'Student representative in the faculty leadership board at Politehnica University'
+      title: 'Student representative in the faculty leadership board at Politehnica University of Timisoara.'
     - year: 2010-11
-      title: 'Volunteer for AIESEC, international youth organization'
+      title: 'Volunteer for AIESEC, international youth organization.'
     - year: 2010-12
-      title: 'Volunteer for Liga AC, student organization at Politehnica University'
+      title: 'Volunteer for Liga AC, student organization at Politehnica University.'
 
 - title: Other Interests
   type: list
