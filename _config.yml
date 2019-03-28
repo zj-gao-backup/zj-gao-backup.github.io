@@ -83,7 +83,7 @@ gems:
 
 # Jekyll-Scholar
 scholar:
-  last_name: Platanios
+  last_name: Stretcu
   style: apa
   locale: en
   sort_by: year

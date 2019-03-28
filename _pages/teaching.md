@@ -6,8 +6,12 @@ description: classes, workshops, and teaching material
 ---
 
 ### Carnegie Mellon University
-
-- Fall 2017: Teaching Assistant for [10-707 Topics in Deep Learning](http://www.cs.cmu.edu/~rsalakhu/10707/)
+- Spring 2018: Teaching Assistant for [<b>10-701 Graduate Machine Learning</b>](http://www.cs.cmu.edu/~pradeepr/courses/701/2018-spring/)
+  -  Graduate level introduction to machine learning class for masters and PhD students, taught by [Prof. Pradeep Ravikumar](https://www.cs.cmu.edu/~pradeepr/) and [Prof. Manuela Veloso](https://www.cs.cmu.edu/~mmv/)
+  - Mentored groups of students working on class projects, held recitations, created and graded homeworks and exams.
+  - I was awarded a Machine Learning Department [<b>Teaching Assistant Award</b>](https://www.ml.cmu.edu/news/news-archive/2018/may/machine-learning-ta-awards-2018.html)
+     
+- Fall 2017: Teaching Assistant for [<b>10-707 Topics in Deep Learning</b>](http://www.cs.cmu.edu/~rsalakhu/10707/)
   - Deep Learning course for masters and PhD students, taught by [Ruslan Salakhutdinov](https://www.cs.cmu.edu/~rsalakhu/)
   - Mentored groups of students working on class projects, graded homeworks and exams.
 

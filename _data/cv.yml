@@ -68,14 +68,6 @@
 - title: Research Experience
   type: table
   contents:
-    - title: 'Monte Carlo methods for question answering'
-      year: 11/17-now
-      location: USA
-      description:
-        - 'Carnegie Mellon University,  Pittsburgh, PA, USA'
-        - 'Advised by <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank"><b>Dr. Barnabàs Pòczos</b></a>'
-        - 'Using Monte Carlo Tree Search to answer natural language questions, using background knowledge represented as a graph.'
-
     - title: 'Machine Learning for understanding how the brain produces speech'
       year: 05/17-now
       location: USA
@@ -83,6 +75,13 @@
         - 'Carnegie Mellon University,  Pittsburgh, PA, USA'
         - 'Advised by <a href="http://www.cs.cmu.edu/~tom/" target="_blank"><b>Prof. Tom M. Mitchell</b></a> and <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank"><b>Dr. Barnabàs Pòczos</b></a>'
         - 'Developing Machine Learning models that analyze neural activity signals (ECoG and Local Field Potentials) in order to understand how different properties of speech are represented in the brain, which can have major consequences for the treatment of many neurological disorders, such as Parkinson’s disease.'
+    - title: 'Monte Carlo methods for question answering'
+      year: 2018
+      location: USA
+      description:
+      - 'Carnegie Mellon University,  Pittsburgh, PA, USA'
+      - 'Advised by <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank"><b>Dr. Barnabàs Pòczos</b></a>'
+      - 'Using Monte Carlo Tree Search to answer natural language questions, using background knowledge represented as a graph.'
     - title: 'Machine Learning for understanding meaning representation in the brain'
       year: 11/16-05/17
       location: USA
@@ -124,7 +123,8 @@
         - '<a href="https://www.womentechmakers.com/scholars" target="_blank"><b>Google Anita Borg Memorial Scholarship</b></a> (2013)'
         - '<a href="https://www.iie.org/Programs/GE-Foundation-Scholar-Leaders" target="_blank"><b>GE (General Electric) Foundation Scholar Leaders Program </b></a> (2012)'
     - year: Awards
-      items: 
+      items:
+        - 'Machine Learning Department Teaching Assistant Award (2018)'
         - 'Carnegie Mellon University Neurohackathon: 2<sup>nd</sup> place (2017)'
         - 'KTH University Programming Challenge, Sweden: Top 10 contestants (2013)'
         - 'ACM International Collegiate Programming Contest (<b>ACM-ICPC</b>): Honorable Mention in Southeastern European Regional (2013, 2012, 2011)'
@@ -141,6 +141,7 @@
       description:
       - Graduate level introduction to machine learning class <a href="http://www.cs.cmu.edu/~pradeepr/courses/701/2018-spring/" target="_blank"><b>10-701 Graduate Machine Learning</b></a> at Carnegie Mellon University
       - Taught by <a href="https://www.cs.cmu.edu/~pradeepr/" target="_blank"><b>Prof. Pradeep Ravikumar</b></a> and <a href="https://www.cs.cmu.edu/~mmv/" target="_blank"><b>Prof. Manuela Veloso</b></a>
+      - I was awarded a Machine Learning Department <a href="https://www.ml.cmu.edu/news/news-archive/2018/may/machine-learning-ta-awards-2018.html" target="_blank"><b>Teaching Assistant Award</b></a>
     - title: '<b>Teaching Assistant</b> for <b>Topics in Deep Learning</b>'
       year: Fall 2017
       location: USA
@@ -173,6 +174,8 @@
 - title: Leadership and Volunteering Activities
   type: table
   contents:
+    - year: 2019
+      title: 'Organizing a workshop on <a href="https://www.amtl-workshop.org/home" target="_blank"><b>Adaptive & Multitask Learning</b></a> at ICML 2019.'
     - year: 2018-present
       title: 'Founding member of the <a href="http://cmu.aiplus.club/" target="_blank"><b> AI+ Club</b></a>  at Carnegie Mellon University (CMU).'
     - year: 2018-present

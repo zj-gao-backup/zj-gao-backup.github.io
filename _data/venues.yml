@@ -7,6 +7,9 @@ CMU:
 ICML:
   url: http://www.icml.cc/
 
+NAACL:
+  url: https://naacl2019.org/
+
 NIPS:
   url: http://www.nips.cc/
 
@@ -24,3 +27,9 @@ BMVC:
 
 SDM:
   url: http://www.siam.org/meetings/sdm17/
+
+JNeurosci:
+  url: http://www.jneurosci.org/
+
+HBM:
+  url: https://www.humanbrainmapping.org

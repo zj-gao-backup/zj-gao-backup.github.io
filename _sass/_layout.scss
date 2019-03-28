@@ -342,7 +342,7 @@
 .bibliography-year {
   border-top: 1px solid #ddd;
   color: #ddd;
-  margin: 0 -3em -2.5ex -2em;
+  margin: 0 -3em -2.5ex -3.4em;
   padding-top: 1ex;
   text-align: right;
 }
@@ -436,13 +436,13 @@
 
   abbr {
     position: absolute;
-    left: -7em;
+    left: -10em;
     text-align: left;
 
     /*border-radius: 5px;*/
     /*border-color: $grey-color-light;*/
     /*background: #fff;*/
-    width: 60px;
+    width: 100px;
 
     a {
       font-size: 30px;
