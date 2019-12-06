@@ -1,3 +1,31 @@
+@inproceedings{stoica2020AAAI,
+    title = {Contextual Parameter Generation for Knowledge Graph Link Prediction},
+    author = {Stoica, George<em class="star">*</em>  and <b>Stretcu, Otilia</b><em class="star">*</em>  and Platanios, Emmanouil Antonios<em class="star">*</em> and Mitchell, Tom and Poczos, Barnabas},
+    booktitle = {Proceedings of the Thirty-fourth AAAI Conference on Artificial Intelligence},
+    year = {2020},
+    organization = {AAAI Conference on Artificial Intelligence},
+    abbr = {AAAI},
+    pdf = {coper-aaai/coper-aaai-paper.pdf},
+    poster = {coper-aaai/coper-aaai-poster.pdf},
+    supplement = {coper-aaai/coper_aaai_supplementary.pdf},
+    abstract = {{We consider the task of knowledge graph link prediction. Recent approaches tackle this problem by learning entity and relation embeddings. However, they often constrain the relationship between these embeddings to be additive (i.e., the embeddings are concatenated and then processed by a sequence of linear functions and element-wise non-linearities). We show that this type of interaction significantly limits representational power, and instead propose to use contextual parameter generation to address this limitation. More specifically, we treat relations as the context in which entities are processed to produce predictions, by using relation embeddings to generate the parameters of a model operating over entity embeddings. We apply our method on two existing link prediction methods, including the current state-of-the-art, resulting in significant performance gains and establishing a new state-of-the-art for this task. These gains are achieved while also reducing training time by up to 28 times.}}
+}
+
+@inproceedings{stretcu2019graph,
+    title = {Graph Agreement Models for Semi-Supervised Learning},
+    author = {<b>Stretcu, Otilia</b> and Viswanathan, Krishnamurthy and Movshovitz-Attias, Dana and Platanios, Emmanouil Antonios and Tomkins, Andrew and Ravi, Sujith},
+    booktitle = {Proceedings of the Thirty-third Conference on Neural Information Processing Systems},
+    year = {2019},
+    organization = {Neural Information Processing Systems},
+    url = {https://papers.nips.cc/paper/9076-graph-agreement-models-for-semi-supervised-learning},
+    abbr = {NeurIPS},
+    pdf = {gam/9076-graph-agreement-models-for-semi-supervised-learning.pdf},
+    poster = {gam/gam-poster.pdf},
+    supplement = {gam/appendix.pdf},
+    code = {https://github.com/tensorflow/neural-structured-learning/tree/master/research/gam},
+    abstract = {{Graph-based algorithms are among the most successful paradigms for solving semi-supervised learning tasks. Recent work on graph convolutional networks and neural graph learning methods has successfully combined the expressiveness of neural networks with graph structures. We propose a technique that, when applied to these methods, achieves state-of-the-art results on semi-supervised learning datasets. Traditional graph-based algorithms, such as label propagation, were designed with the underlying assumption that the label of a node can be imputed from that of the neighboring nodes. However, real-world graphs are either noisy or have edges that do not correspond to label agreement. To address this, we propose Graph Agreement Models (GAM), which introduces an auxiliary model that predicts the probability of two nodes sharing the same label as a learned function of their features. The agreement model is used when training a node classification model by encouraging agreement only for the pairs of nodes it deems likely to have the same label, thus guiding its parameters to better local optima. The classification and agreement models are trained jointly in a co-training fashion. Moreover, GAM can also be applied to any semi-supervised classification problem, by inducing a graph whenever one is not provided. We demonstrate that our method achieves a relative improvement of up to 72% for various node classification models, and obtains state-of-the-art results on multiple established datasets.}}
+}
+
 @inproceedings{zhao2019efficient,
     title = {Efficient Multitask Feature and Relationship Learning},
     author = {Zhao, Han and <b>Stretcu, Otilia</b> and Smola, Alexander J. and Gordon, Geoffrey J.},
@@ -17,6 +45,7 @@
     journal = {Human Brain Mapping Conference},
     year = {2019},
     abbr = {HBM},
+    poster = {ohbm/ohbm-poster.pdf},
     abstract = {{Recorded brain activity of subjects who perceive the same stimulus (e.g. a word) while performing
         different semantic tasks (e.g. identifying whether the word belongs to a particular category) has been shown
         to differ across tasks. However, it is not well understood how precisely the task contributes to this brain
@@ -35,15 +64,16 @@
     organization = {Association for Computational Linguistics (ACL)},
     abbr = {NAACL},
     arxiv = {1903.09848},
+    code = {https://github.com/eaplatanios/curriculum},
     abstract = {{Current state-of-the-art NMT systems use large neural networks that are not only slow to train, but also often require many heuristics and optimization tricks, such as specialized learning rate schedules and large batch sizes. This is undesirable as it requires extensive hyperparameter tuning. In this paper, we propose a curriculum learning framework for NMT that reduces training time, reduces the need for specialized heuristics or large batch sizes, and results in overall better performance. Our framework consists of a principled way of deciding which training samples are shown to the model at different times during training, based on the estimated difficulty of a sample and the current competence of the model. Filtering training samples in this manner prevents the model from getting stuck in bad local optima, making it converge faster and reach a better solution than the common approach of uniformly sampling training examples. Furthermore, the proposed method can be easily applied to existing NMT models by simply modifying their input data pipelines. We show that our framework can help improve the training time and the performance of both recurrent neural network models and Transformers, achieving up to a 70% decrease in training time, while at the same time obtaining accuracy improvements of up to 2.2 BLEU.}}
 }
 
 @article{Chrabaszcz2019SubthalamicNA,
     title = {Subthalamic nucleus and sensorimotor cortex activity during speech production},
-    author = {Chrabaszcz, Anna and Neumann,  W. J. and <b>Stretcu, Otilia</b> and Lipski, Witold J. and Bush, Adam and
-    Dastolfo-Hromack, Christina and Wang, Dongbin and Crammond, Donald J. and Shaiman, Susan and Walsh Dickey, Michael
+    author = {Chrabaszcz, Anna and Neumann,  W. J. and <b>Stretcu, Otilia</b> and Lipski, Witold J. and Bush, Alan and
+    Dastolfo-Hromack, Christina and Wang, Dengyu and Crammond, Donald J. and Shaiman, Susan and Dickey, Michael Walsh
     and Holt, Lori L. and Turner, Robert S. and Fiez, Julie A. and Richardson, R. Mark},
-    journal = {The Journal of neuroscience : the official journal of the Society for Neuroscience},
+    journal = {The Journal of Neuroscience: the official journal of the Society for Neuroscience},
     year = {2019},
     abbr = {JNeurosci},
     website = {https://www.ncbi.nlm.nih.gov/pubmed/30700532},
@@ -69,7 +99,7 @@
     year = {2017},
     pdf = {fetr/LLD_2017_paper_15.pdf},
     arxiv = {1702.04423},
-    abbr = {NIPS},
+    abbr = {NeurIPS},
     abstract = {{ We propose a multi-convex framework for multitask learning that improves pre- dictions by learning relationships both between tasks and between features. Our framework is a generalization of related methods, that either learn task relationships, or feature relationships, but not both. We start with a hierarchical Bayesian model, and use the empirical Bayes method to transform the underlying inference problem into a multi-convex problem. To tackle the multi-convex optimization problem, we propose a block coordinate-wise minimization algorithm that has a closed form solution for each block subproblem. Naively these solutions would be expensive to compute, but by using the theory of doubly stochastic matrices, we are able to reduce the covariance learning subproblem to a minimum-weight perfect matching problem on a complete bipartite graph, and solve it analytically and efficiently. To solve the weight learning subproblem, we propose three different strategies that can be used no matter whether the instances are shared by multiple tasks or not. We demonstrate the efficiency of our method on both synthetic datasets and real-world datasets. Experiments show that the proposed optimization method is orders of magnitude faster than the previous projected gradient method, and our model is able to exploit the correlation structures among multiple tasks and features. }},
     poster = {fetr/poster_fetr_lld.pdf}
 }

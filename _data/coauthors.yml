@@ -1,6 +1,15 @@
 Chrabaszcz:
   url: https://www.lrdc.pitt.edu/people/researcher-detail.cshtml?id=1976
 
+Crammond:
+  url: http://www.neurosurgery.pitt.edu/person/donald-crammond
+
+Dastolfo-Hromack:
+  url: https://www.linkedin.com/in/christina-dastolfo-hromack-9769ab20/
+
+Dickey:
+  url: https://www.shrs.pitt.edu/people/michael-walsh-dickey
+
 Faloutsos:
   url: http://www.cs.cmu.edu/~christos/
 
@@ -31,6 +40,9 @@ Lipski:
 Mitchell:
   url: http://www.cs.cmu.edu/~tom/
 
+Movshovitz-Attias:
+  url: http://www.cs.cmu.edu/~dmovshov/
+
 Negrinho:
   url: https://www.cs.cmu.edu/~negrinho/
 
@@ -46,11 +58,20 @@ Papalexakis:
 Poczos:
   url: http://www.cs.cmu.edu/~bapoczos/
 
+Platanios:
+  url: http://platanios.org/
+
+Ravi:
+  url: http://www.sravi.org/
+
 Richardson:
   url: http://www.neurosurgery.pitt.edu/person/mark-richardson
 
 Shavit:
   url: https://www.linkedin.com/in/yoli-shavit-76832856/?originalSubdomain=uk
+
+Shaiman:
+  url: https://www.shrs.pitt.edu/people/susan-shaiman
 
 Sidiropoulo:
   url: http://people.ece.umn.edu/~nikos/
@@ -61,11 +82,23 @@ Smola:
 Song:
   url: http://www.cs.cmu.edu/~hyunahs/
 
+Stoica:
+  url: https://www.linkedin.com/in/george--stoica/
+
 Talukdar:
   url: http://talukdar.net/
 
+Tomkins:
+  url: https://ai.google/research/people/author8038/
+
 Toneva:
   url: http://www.cs.cmu.edu/~mktoneva/
+
+Turner:
+  url: https://www.neurobio.pitt.edu/faculty/turner.htm
+
+Viswanathan:
+  url: https://www.linkedin.com/in/krishnamurthy-viswanathan-14b65a42/
 
 Zhao:
   url: https://www.cs.cmu.edu/~hzhao1/

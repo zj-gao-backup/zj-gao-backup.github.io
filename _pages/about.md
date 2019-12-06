@@ -12,12 +12,10 @@ profile:
 news: true
 ---
 
-I am a fourth year PhD student in the [Machine Learning Department](http://www.ml.cmu.edu/){:target="_blank"} of the [School of Computer Science](https://www.scs.cmu.edu/){:target="_blank"} at [Carnegie Mellon University](http://www.cmu.edu/){:target="_blank"}, co-advised by [Tom Mitchell](http://www.cs.cmu.edu/~tom/){:target="_blank"} and
+I am a PhD student in the [Machine Learning Department](http://www.ml.cmu.edu/){:target="_blank"} at [Carnegie Mellon University](http://www.cmu.edu/){:target="_blank"}, co-advised by [Tom Mitchell](http://www.cs.cmu.edu/~tom/){:target="_blank"} and
 [Barnabàs Pòczos](http://www.cs.cmu.edu/~bapoczos/){:target="_blank"}.
 
-My PhD research focuses on developing machine learning methods applied in neuroscience, with the goal of understanding how the brain understands language and controls speech. 
-I am also passionate about drawing inspiration from the human brain and intuition in order to develop new methods for machine learning (mainly focused on semi-supervised and curriculum learning). 
-Previously, I did some research in Computer Vision, with the goal of detecting and tracking objects in videos.
+My PhD research focuses on developing algorithms for machine learning, mainly focused on semi-supervised, curriculum learning, and graph-based problems. I am also passionate about applying machine learning methods in neuroscience, in order to study how the brain understands language and controls speech. Previously, I did some research in Computer Vision, with the goal of detecting and tracking objects in videos.
 
 Before I joined CMU, I graduated with an [M.Phil. in Advanced Computer Science](https://www.cst.cam.ac.uk/admissions/acs){:target="_blank"} from the [University of Cambridge](https://www.cam.ac.uk/){:target="_blank"}, UK.
 In my Master's thesis I used Machine Learning methods to detect and align chromosomes in microscope images, advised by [Pietro Lió](https://www.cl.cam.ac.uk/~pl219/){:target="_blank"}.

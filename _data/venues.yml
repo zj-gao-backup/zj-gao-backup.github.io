@@ -1,6 +1,9 @@
 arXiv:
   url: https://arxiv.org
 
+AAAI:
+  url: https://aaai.org/Conferences/AAAI/aaai.php
+
 CMU:
   url: http://www.ml.cmu.edu/
 
@@ -13,7 +16,7 @@ ICML:
 NAACL:
   url: https://naacl2019.org/
 
-NIPS:
+NeurIPS:
   url: http://www.nips.cc/
 
 UAI:

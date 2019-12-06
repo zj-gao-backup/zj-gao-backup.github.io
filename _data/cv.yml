@@ -5,8 +5,8 @@
       value: Otilia Stretcu
 #    - name: Date of Birth
 #      value: 25th January 1991
-    - name: Nationality
-      value: Romanian
+#    - name: Nationality
+#      value: Romanian
     - name: Languages
       value: Romanian (native), English (fluent), German (beginner), Spanish (beginner), Swedish (beginner)
 
@@ -15,7 +15,7 @@
   contents:
     - My PhD research focuses on developing machine learning methods applied in neuroscience, with the goal of understanding how the brain understands language and controls speech.
     - I am also passionate about drawing inspiration from the human brain and intuition in order to develop new methods for machine learning (mainly focused on semi-supervised and curriculum learning).
-    - I am also interested in creating AI agents that can understand language and reason, therefore I am also working on natural language processing with a focus on question answering and problem solving.
+    - I am also interested in creating AI agents that can understand language and reason, therefore I have also worked on natural language processing with a focus on question answering and problem solving.
 - title: Education
   type: table
   contents:
@@ -124,6 +124,7 @@
         - '<a href="https://www.iie.org/Programs/GE-Foundation-Scholar-Leaders" target="_blank"><b>GE (General Electric) Foundation Scholar Leaders Program </b></a> (2012)'
     - year: Awards
       items:
+        - 'Best poster award at the Eastern European Machine Learning Summer School in Bucharest, Romania (2019)'
         - 'Machine Learning Department Teaching Assistant Award (2018)'
         - 'Carnegie Mellon University Neurohackathon: 2<sup>nd</sup> place (2017)'
         - 'KTH University Programming Challenge, Sweden: Top 10 contestants (2013)'
@@ -179,8 +180,8 @@
     - year: 2018-present
       title: 'Founding member of the <a href="http://cmu.aiplus.club/" target="_blank"><b> AI+ Club</b></a>  at Carnegie Mellon University (CMU).'
     - year: 2018-present
-      title: 'Program Committees: ICML (2019), AISTATS (2019), ICLR-LLD (2019), ICLR (2018).'
-    - year: 2018-present
+      title: 'Program Committees: ICML (2019), AISTATS (2019, 2020), ICLR (2018, 2020), ICLR-LLD (2019), PLOS ONE (2019).'
+    - year: 2018-2019
       title: 'Treasurer of the Romanian Students Association at CMU.'
     - year: 2016-present
       title: 'Member of the Doctoral Review Committee of the Machine Learning Department at CMU.'
