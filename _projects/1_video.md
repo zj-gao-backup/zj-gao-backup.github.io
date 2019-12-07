@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Foreground Objects Discovery in Video
-description: Computer Vision research on automatic discovery of foreground objects in videos
+description: Computer Vision research on automatic discovery of foreground objects in videos.
 img: /assets/img/videopca.png
 redirect: https://sites.google.com/site/multipleframesmatching/
 ---

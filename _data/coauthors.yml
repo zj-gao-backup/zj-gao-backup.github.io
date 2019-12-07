@@ -19,10 +19,22 @@ Fiez:
 Fu:
   url: http://people.oregonstate.edu/~fuxia/
 
+Fu*:
+  url: http://people.oregonstate.edu/~fuxia/
+
+Fu<nobr><em>*</em></nobr>:
+  url: http://people.oregonstate.edu/~fuxia/
+
 Holt:
   url: https://www.cmu.edu/dietrich/psychology/people/core-training-faculty/holt-lori.html
 
 Huang:
+  url: https://sites.google.com/a/umn.edu/huang663/
+
+Huang*:
+  url: https://sites.google.com/a/umn.edu/huang663/
+
+Huang<nobr><em>*</em></nobr>:
   url: https://sites.google.com/a/umn.edu/huang663/
 
 Gordon:
@@ -61,6 +73,12 @@ Poczos:
 Platanios:
   url: http://platanios.org/
 
+Platanios*:
+  url: http://platanios.org/
+
+Platanios<nobr><em>*</em></nobr>:
+  url: http://platanios.org/
+
 Ravi:
   url: http://www.sravi.org/
 
@@ -82,7 +100,19 @@ Smola:
 Song:
   url: http://www.cs.cmu.edu/~hyunahs/
 
+Song*:
+  url: http://www.cs.cmu.edu/~hyunahs/
+
+Song<nobr><em>*</em></nobr>:
+  url: http://www.cs.cmu.edu/~hyunahs/
+
 Stoica:
+  url: https://www.linkedin.com/in/george--stoica/
+
+Stoica*:
+  url: https://www.linkedin.com/in/george--stoica/
+
+Stoica<nobr><em>*</em></nobr>:
   url: https://www.linkedin.com/in/george--stoica/
 
 Talukdar:
@@ -92,6 +122,12 @@ Tomkins:
   url: https://ai.google/research/people/author8038/
 
 Toneva:
+  url: http://www.cs.cmu.edu/~mktoneva/
+
+Toneva*:
+  url: http://www.cs.cmu.edu/~mktoneva/
+
+Toneva<nobr><em>*</em></nobr>:
   url: http://www.cs.cmu.edu/~mktoneva/
 
 Turner:

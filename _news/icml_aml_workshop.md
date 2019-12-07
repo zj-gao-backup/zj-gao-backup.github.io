@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 date: 2019-04-05 07:59:00-0400
 inline: true
 ---

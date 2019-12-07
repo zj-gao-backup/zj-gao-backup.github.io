@@ -3,12 +3,12 @@
 # -----------------------------------------------------------------------------
 
 name: Otilia Stretcu
-email: ostretcu@cs.cmu.edu
-description: > # this means to ignore newlines until "url:"
-  My personal website.
-footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+email: otiliastr@gmail.com
+
+# footer_text: >
+#   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+#   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+# last_updated: true
 
 url:  # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
@@ -20,8 +20,9 @@ scholar_userid: UcT4CXoAAAAJ
 github_username: otiliastr
 linkedin_username: otiliastr
 facebook_username: otilia.stretcu
-# twitter_username:
-contact_note: Feel free to drop me a line via email.
+twitter_username: otilia_stretcu
+contact_note: Feel free to drop me a line via e-mail.
+
 
 #google_analytics: UA-54519238-1
 
@@ -55,7 +56,7 @@ contact_note: Feel free to drop me a line via email.
 collections:
   news:
     defaults:
-      layout: post
+      layout: page
     output: true
     permalink: /news/:path/
   projects:
@@ -75,11 +76,11 @@ markdown: kramdown
 # Includes
 include: ['_pages']
 
-# Gems
-gems:
-    - jekyll-paginate
-    - jekyll/scholar
-    - jemoji
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll/scholar
+  - jemoji
 
 # Jekyll-Scholar
 scholar:
@@ -90,7 +91,8 @@ scholar:
   order: descending
   source: /_bibliography/
   bibliography: papers.bib
-  bibliography_template: bib
+  bibliography_template: publication
+  reference_tagname: div
 
   replace_strings: true
   join_strings: true
