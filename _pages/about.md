@@ -28,7 +28,7 @@ address: <a href="https://www.google.com/maps/place/Gates+Center+for+Computer+Sc
         </p>
         
         <p>
-            My PhD research focuses on developing algorithms for machine learning, mainly focused on semi-supervised, curriculum learning, and graph-based problems.
+            My PhD research focuses on developing algorithms for machine learning, mainly focused on semi-supervised learning, curriculum learning, multitask learning, and graph-based problems.
             I am also passionate about applying machine learning methods in neuroscience, in order to study how the brain understands language and controls speech.
             Previously, I did some research in Computer Vision, with the goal of detecting and tracking objects in videos.
         </p>

@@ -20,7 +20,7 @@ nav: cv
 			{% if entry.type == "list" %}
 				<ul class="card-text font-weight-light list-group list-group-flush">
 				{% for content in entry.contents %}
-					<li class="list-group-item">{{ content}}</li>
+					<li class="list-group-item">{{ content }}</li>
 				{% endfor %}
 				</ul>
 			{% elsif entry.type == "map" %}
@@ -161,6 +161,9 @@ nav: cv
                     </li>
                 {% endfor %}
                 </ul>
+            {% endif %}
+            {% if entry.note %}
+                <span class="card-text font-weight-light">{{ entry.note }}</span>
             {% endif %}
 			</div>
 		</div>

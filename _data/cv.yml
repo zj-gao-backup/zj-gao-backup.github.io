@@ -6,14 +6,14 @@
   - name: Contact
     value: otiliastr [at] gmail [dot] com
   - name: Languages
-    value: Romanian (native), English (fluent), German (beginner), Spanish (beginner), Swedish (beginner)
+    value: Romanian (native), English (fluent), Spanish (beginner), German (beginner), Swedish (beginner)
 
 - title: Research Areas
   type: list
   contents:
-  - My PhD research focuses on developing machine learning methods applied in neuroscience, with the goal of understanding how the brain understands language and controls speech.
-  - I am also passionate about drawing inspiration from the human brain and intuition in order to develop new methods for machine learning (mainly focused on semi-supervised and curriculum learning).
+  - My PhD research focuses on developing algorithms for machine learning, mainly focused on semi-supervised learning, curriculum learning, multitask learning, and graph-based problems.
   - I am also interested in creating AI agents that can understand language and reason, therefore I have also worked on natural language processing with a focus on question answering and problem solving.
+  - I have also worked on machine learning methods for neuroscience, with the goal of understanding how the human brain understands language and controls speech.
 
 - title: Education
   type: table
@@ -24,16 +24,26 @@
     description:
     - 'Co-advised by <a href="http://www.cs.cmu.edu/~tom/" target="_blank"><b>Prof. Tom M. Mitchell</b></a> and <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank"><b>Dr. Barnabàs Pòczos</b></a>'
     - 'GPA: 4.0 (4.0 scale)'
+  - title: Carnegie Mellon University – M.S. in Machine Learning
+    year: 2015 - 2017
+    location: USA
+    description:
+    - 'Co-advised by <a href="http://www.cs.cmu.edu/~tom/" target="_blank"><b>Prof. Tom M. Mitchell</b></a> and <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank"><b>Dr. Barnabàs Pòczos</b></a>'
+    - 'GPA: 4.0 (4.0 scale)'
+    - 'Thesis: <i> Understanding the Neural Basis of Speech Production Using Machine Learning </i>'
+    - 'Master’s degree requirements completed while working towards obtaining my Ph.D.'
   - title: University of Cambridge – Master of Philosophy (M.Phil.) in Advanced Computer Science
     year: 2014 - 2015
     location: UK
     description:
     - 'Advised by <a href="https://www.cl.cam.ac.uk/~pl219/" target="_blank"><b>Prof. Pietro Lió</b></a>'
-    - 'Thesis: Machine Learning Methods for Computational Microscopy'
+    - 'Thesis: <i>Machine Learning Methods for Computational Microscopy</i>'
     - 'Grade: Pass with Distinction'
   - title: <b>Linköping University – Erasmus Exchange Student</b>
     year: 2012 - 2013
     location: Sweden
+    description:
+      - 'I spent the third year of my undergraduate studies as an Erasmus exchange student at Linköping University, Sweden'
   - title: Politehnica University of Timisoara – B.Eng. in Computer Science and Information Technology
     year: 2010 - 2014
     location: Romania
@@ -45,61 +55,60 @@
   type: table
   contents:
   - title: 'Software Engineering Intern at Google Research'
-    year: 'Summer 2018 <br/> &emsp;  & <br/> Spring 2019'
+    year: 'Summer 2018 <br/> & <br/> Spring 2019'
     location: USA
     description:
     - '<a href="https://ai.googleblog.com/2016/10/graph-powered-machine-learning-at-google.html" target="_blank"><b>Expander team</b></a> in <a href="https://ai.google/research/" target="_blank"><b>Google Research</b></a> , Mountain View, CA, USA'
-    - 'Research in semi-supervised learning combining deep learning and graphs.'
+    - 'Research on deep learning models for graph-based semi-supervised learning, published at NeurIPS 2019.'
   - title: 'Software Engineering Intern at Google X'
     year: Summer 2016
     location: USA
     description:
-    - '<a href="https://www.google.com/selfdrivingcar/" target="_blank"><b>Self-Driving Car team</b></a> in <a href="https://x.company/" target="_blank"><b>Google X</b></a> , Mountain View, CA, USA'
+    - '<a href="https://www.google.com/selfdrivingcar/" target="_blank"><b>Self-Driving Car team</b></a> in <a href="https://x.company/" target="_blank"><b>Google X</b></a> (current <a href="https://waymo.com/" target="_blank"><b>Waymo</b></a>), Mountain View, CA, USA'
     - 'Undisclosed Machine Learning projects for the Google self-driving car.'
   - title: 'Software Developer Intern at Microsoft'
     year: Summer 2014
     location: USA
     description:
     - '<a href="https://www.microsoft.com/en-us/windows/cortana" target="_blank"><b>Cortana team</b></a> at <a href="https://www.microsoft.com/en-us/" target="_blank"><b>Microsoft Corporation</b></a>, Redmond, WA, USA'
-    - 'Undisclosed Machine Learning project for Cortana, Windows Phone’s digital personal assistant.'
+    - 'Undisclosed Machine Learning project for Cortana, Windows’ digital personal assistant.'
 
 
-- title: Research Experience
+- title: Other Research Experience
   type: table
   contents:
-  - title: 'Machine Learning for understanding how the brain produces speech'
-    year: 2017 - now
-    location: USA
-    description:
-    - 'Carnegie Mellon University,  Pittsburgh, PA, USA'
-    - 'Advised by <a href="http://www.cs.cmu.edu/~tom/" target="_blank"><b>Prof. Tom M. Mitchell</b></a> and <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank"><b>Dr. Barnabàs Pòczos</b></a>'
-    - 'Developing Machine Learning models that analyze neural activity signals (ECoG and Local Field Potentials) in order to understand how different properties of speech are represented in the brain, which can have major consequences for the treatment of many neurological disorders, such as Parkinson’s disease.'
-  - title: 'Monte Carlo methods for question answering'
-    year: 2018
-    location: USA
-    description:
-    - 'Carnegie Mellon University,  Pittsburgh, PA, USA'
-    - 'Advised by <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank"><b>Dr. Barnabàs Pòczos</b></a>'
-    - 'Using Monte Carlo Tree Search to answer natural language questions, using background knowledge represented as a graph.'
-  - title: 'Machine Learning for understanding meaning representation in the brain'
-    year: 2016 - 2017
-    location: USA
-    description:
-    - 'Carnegie Mellon University, Pittsburgh, PA, USA'
-    - 'Advised by <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank"><b>Dr. Barnabàs Pòczos</b></a> and <a href="http://www.cs.cmu.edu/~tom/" target="_blank"><b>Prof. Tom M. Mitchell</b></a>'
-    - 'Developed Machine Learning models that combine neural activity time series of different modalities. The goal was to use brain activity recordings, such as fMRI, EEG and MEG, to understand how the brain processes language. I focused on Deep Learning models, such as recurrent neural networks.'
-  - title: 'Computer Vision for unsupervised object discovery in video'
+#  - title: 'Machine Learning for understanding how the brain produces speech'
+#    year: 2017 - now
+#    location: USA
+#    description:
+#    - 'Carnegie Mellon University,  Pittsburgh, PA, USA'
+#    - 'Advised by <a href="http://www.cs.cmu.edu/~tom/" target="_blank"><b>Prof. Tom M. Mitchell</b></a> and <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank"><b>Dr. Barnabàs Pòczos</b></a>'
+#    - 'Developing Machine Learning models that analyze neural activity signals (ECoG and Local Field Potentials) in order to understand how different properties of speech are represented in the brain, which can have major consequences for the treatment of many neurological disorders, such as Parkinson’s disease.'
+#  - title: 'Monte Carlo methods for question answering'
+#    year: 2018
+#    location: USA
+#    description:
+#    - 'Carnegie Mellon University,  Pittsburgh, PA, USA'
+#    - 'Advised by <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank"><b>Dr. Barnabàs Pòczos</b></a>'
+#    - 'Using Monte Carlo Tree Search to answer natural language questions, using background knowledge represented as a graph.'
+#  - title: 'Machine Learning for understanding meaning representation in the brain'
+#    year: 2016 - 2017
+#    location: USA
+#    description:
+#    - 'Carnegie Mellon University, Pittsburgh, PA, USA'
+#    - 'Advised by <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank"><b>Dr. Barnabàs Pòczos</b></a> and <a href="http://www.cs.cmu.edu/~tom/" target="_blank"><b>Prof. Tom M. Mitchell</b></a>'
+#    - 'Developed Machine Learning models that combine neural activity time series of different modalities. The goal was to use brain activity recordings, such as fMRI, EEG and MEG, to understand how the brain processes language. I focused on Deep Learning models, such as recurrent neural networks.'
+  - title: 'Independent Research Project in Computer Vision'
     year: 2014 - 2015
     location: Romania
     description:
-    - 'Carnegie Mellon University, Pittsburgh, PA, USA'
     - 'Advised by <a href="https://sites.google.com/site/mariusleordeanu/home" target="_blank"><b>Dr. Marius Leordeanu</b></a>'
-    - 'Unsupervised object discovery in video based on multiple frames matching. We also proposed a fast method for detecting the main object of interest in a video, titled VideoPCA.'
+    - 'Unsupervised object discovery in video based on multiple frames matching. We also proposed a fast method for detecting the main object of interest in a video, titled VideoPCA. Published at BMVC 2015.'
   - title: 'Research Internship in Machine Learning at EPFL'
     year: Summer 2013
     location: Switzerland
     description:
-    - 'École Polytechnique Fédérale de Lausanne, Laboratory for Probabilistic Machine Learning'
+    - 'Laboratory for Probabilistic Machine Learning at École Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland'
     - 'Advised by <a href="https://www.linkedin.com/in/matthias-seeger-3010b765" target="_blank"><b>Dr. Matthias Seeger</b></a>'
     - 'Used topic models to explore the correlation between social media messages from Twitter and the location of the users, with applications to user profiling, topic tracking and content recommendation. I was responsible with applying various machine learning models and parallelizing the code in order to scale well.'
   - title: 'Research for Undergraduates Program'
@@ -109,6 +118,7 @@
     - 'Politehnica University of Timisoara, Romania'
     - 'Advised by <b>Prof. Emilia Petrisor</b>'
     - 'Implemented algorithms for spectral clustering of nodes in a graph, based on minimum graph cut, with applications to data mining and statistics, such as clustering information from documents on the web and medical images segmentation.'
+  note: '<b>Note:</b> for further details on my research, please see the <a href="/publications/" target="_blank"><b>publications</b></a> page.'
 
 - title: Honors and Awards
   type: table
@@ -185,12 +195,17 @@
 - title: Leadership and Volunteering Activities
   type: table-no-bullets
   contents:
+  - year: 2019 - now
+    description:
+      - 'Mentorship:'
+      - '- Mentor for the CMU AI mentoring program (2019--2020)'
+      - '- Mentor for first year PhD students at CMU (2019--2020)'
   - year: 2019
-    description: 'Organizing a workshop on <a href="https://www.amtl-workshop.org/home" target="_blank"><b>Adaptive & Multitask Learning</b></a> at ICML 2019.'
+    description: 'Organized a workshop on <a href="https://www.amtl-workshop.org/home" target="_blank"><b>Adaptive & Multitask Learning</b></a> at ICML 2019.'
   - year: 2018 - now
     description: 'Founding member of the <a href="http://cmu.aiplus.club/" target="_blank"><b> AI+ Club</b></a>  at Carnegie Mellon University (CMU).'
   - year: 2018 - now
-    description: 'Program Committees: ICML (2019), AISTATS (2019, 2020), ICLR (2018, 2020), ICLR-LLD (2019), PLOS ONE (2019).'
+    description: 'I was a reviewer for the following journals, conferences and workshops: ICML (2019), AISTATS (2019, 2020), ICLR (2018, 2020), ICLR-LLD (2019), PLOS ONE (2019), ICML-GRL (2020), NeurIPS (2020).'
   - year: 2018 - 2019
     description: 'Treasurer of the Romanian Students Association at CMU.'
   - year: 2016 - now
@@ -210,4 +225,4 @@
   type: list
   contents:
   - 'Sports: squash, volleyball, tennis, climbing, hiking'
-  - 'Hobbies: traveling, painting, movies'
+  - 'Hobbies: traveling, painting, movies, arts and crafts'

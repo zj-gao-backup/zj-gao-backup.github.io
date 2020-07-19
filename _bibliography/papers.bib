@@ -3,7 +3,7 @@
 
 @inproceedings{stoica2020AAAI,
     title = {Contextual Parameter Generation for Knowledge Graph Link Prediction},
-    author = {Stoica<nobr><em>*</em></nobr>, George  and Stretcu*, Otilia and Platanios<nobr><em>*</em></nobr>, Emmanouil Antonios and Mitchell, Tom and Poczos, Barnabas},
+    author = {Stoica<nobr><em>*</em></nobr>, George  and Stretcu*, Otilia and Platanios<nobr><em>*</em></nobr>, Emmanouil Antonios and Mitchell, Tom and Póczos, Barnabás},
     booktitle = {Proceedings of the Thirty-fourth AAAI Conference on Artificial Intelligence},
     year = {2020},
     organization = {AAAI Conference on Artificial Intelligence},
@@ -12,6 +12,18 @@
     poster = {coper-aaai/coper-aaai-poster.pdf},
     supplement = {coper-aaai/coper_aaai_supplementary.pdf},
     abstract = {{We consider the task of knowledge graph link prediction. Recent approaches tackle this problem by learning entity and relation embeddings. However, they often constrain the relationship between these embeddings to be additive (i.e., the embeddings are concatenated and then processed by a sequence of linear functions and element-wise non-linearities). We show that this type of interaction significantly limits representational power, and instead propose to use contextual parameter generation to address this limitation. More specifically, we treat relations as the context in which entities are processed to produce predictions, by using relation embeddings to generate the parameters of a model operating over entity embeddings. We apply our method on two existing link prediction methods, including the current state-of-the-art, resulting in significant performance gains and establishing a new state-of-the-art for this task. These gains are achieved while also reducing training time by up to 28 times.}}
+}
+
+@inproceedings{stretcu2020baics,
+    title = {Coarse-to-Fine Curriculum Learning},
+    author = {Stretcu, Otilia and Platanios, Emmanouil Antonios and Mitchell, Tom and Póczos, Barnabás},
+    booktitle = {International Conference on Learning Representations (ICLR) Workshop on Bridging AI and Cognitive Science (BAICS)},
+    year = {2020},
+    abbr = {ICLR},
+    pdf = {coarse-to-fine/coarse-to-fine-baics.pdf},
+    abstract = {{When faced with learning challenging new tasks, humans often follow sequences of steps that allow them to incrementally build up the necessary skills for performing these new tasks. However, in machine learning, models are most often trained to solve the target tasks directly. Inspired by human learning, we propose a novel curriculum learning approach which decomposes challenging tasks into sequences of easier intermediate goals, that are used to pre-train a model before tackling the original task. We focus on classification tasks, and design the intermediate tasks using an automatically constructed label hierarchy. We train the model at each level of the hierarchy, from coarse labels to fine labels, transferring acquired knowledge across these levels. For instance, the model will first learn to distinguish animals from objects, and use this acquired knowledge when learning to classify more fine-grained classes such as "cat", "dog", "car", and "truck". We evaluate our method on several established datasets and show performance gains of up to 7% increase in classification accuracy.}},
+    video = {https://baicsworkshop.github.io/program/baics_26.html},
+    code = {https://github.com/otiliastr/coarse-to-fine-curriculum}
 }
 
 @inproceedings{stretcu2019graph,
@@ -44,7 +56,7 @@
 
 @article{ohbm,
     title = {Investigating Task Effects on Brain Activity During Stimulus Presentation in MEG},
-    author = {Stretcu<nobr><em>*</em></nobr>, Otilia and Toneva<nobr><em>*</em></nobr>, Mariya and Poczos, Barnabas  and Mitchell, Tom},
+    author = {Stretcu<nobr><em>*</em></nobr>, Otilia and Toneva<nobr><em>*</em></nobr>, Mariya and Póczos, Barnabás  and Mitchell, Tom},
     journal = {Human Brain Mapping Conference},
     year = {2019},
     abbr = {HBM},
@@ -61,7 +73,7 @@
 
 @inproceedings{platanios2019curriculummt,
     title = {Competence-based Curriculum Learning for Neural Machine Translation},
-    author = {Platanios, Emmanouil Antonios and Stretcu, Otilia and Neubig, Graham and Poczos, Barnabas and Mitchell, Tom},
+    author = {Platanios, Emmanouil Antonios and Stretcu, Otilia and Neubig, Graham and Póczos, Barnabás and Mitchell, Tom},
     booktitle = {Proceedings of the 2019 Annual Conference of the North American Chapter of the Association for Computational Linguistics},
     year = {2019},
     organization = {Association for Computational Linguistics (ACL)},
@@ -85,7 +97,7 @@
 
 @inproceedings{fu2017brainzoom,
     title = {BrainZoom: High Resolution Reconstruction from Multi-modal Brain Signals},
-    author = {Fu<nobr><em>*</em></nobr>, Xiao and Huang<nobr><em>*</em></nobr>, Kejun and Stretcu<nobr><em>*</em></nobr>, Otilia and Song<nobr><em>*</em></nobr>, Hyun Ah and Papalexakis, Evangelos and Talukdar, Partha and Mitchell, Tom and Sidiropoulo, Nicholas and Faloutsos, Christos and Poczos, Barnabas},
+    author = {Fu<nobr><em>*</em></nobr>, Xiao and Huang<nobr><em>*</em></nobr>, Kejun and Stretcu<nobr><em>*</em></nobr>, Otilia and Song<nobr><em>*</em></nobr>, Hyun Ah and Papalexakis, Evangelos and Talukdar, Partha and Mitchell, Tom and Sidiropoulo, Nicholas and Faloutsos, Christos and Póczos, Barnabás},
     booktitle = {Proceedings of the 2017 SIAM International Conference on Data Mining},
     pages = {216--227},
     year = {2017},
