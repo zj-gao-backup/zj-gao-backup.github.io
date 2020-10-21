@@ -22,8 +22,10 @@
     year: 2015 - now
     location: USA
     description:
-    - 'Co-advised by <a href="http://www.cs.cmu.edu/~tom/" target="_blank"><b>Prof. Tom M. Mitchell</b></a> and <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank"><b>Dr. Barnabàs Pòczos</b></a>'
+    - 'Co-advised by <a href="http://www.cs.cmu.edu/~tom/" target="_blank"><b>Prof. Tom Mitchell</b></a> and <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank"><b>Dr. Barnabàs Pòczos</b></a>'
     - 'GPA: 4.0 (4.0 scale)'
+    - 'Thesis: Curriculum Learning'
+    - 'Thesis committee: Tom Mitchell, Barnabàs Pòczos, Ruslan Salakhutdinov, Rich Caruana'
   - title: Carnegie Mellon University – M.S. in Machine Learning
     year: 2015 - 2017
     location: USA
@@ -125,7 +127,7 @@
   contents:
   - year: Fellowships
     items:
-    - 'Center for Machine Learning and Health (<a href="https://www.cs.cmu.edu/cmlh-cfp" target="_blank"><b>CMLH) Fellowship in Digital Health</b></a> (2018)'
+    - '<a href="https://www.cs.cmu.edu/cmlh-cfp" target="_blank"><b> Center for Machine Learning and Health (CMLH) Fellowship in Digital Health</b></a> (2018)'
   - year: Scholarships
     items:
     - '<a href="https://www.gatescambridge.org/" target="_blank"><b>Gates Cambridge Scholarship</b></a> (2014)'
@@ -138,8 +140,19 @@
     - 'Carnegie Mellon University Neurohackathon: 2<sup>nd</sup> place (2017)'
     - 'KTH University Programming Challenge, Sweden: Top 10 contestants (2013)'
     - 'ACM International Collegiate Programming Contest (<b>ACM-ICPC</b>): Honorable Mention in Southeastern European Regional (2013, 2012, 2011)'
-    - '<b>Microsoft Imagine Cup</b>: Top 20 in the World Finals (2012), 1<sup>st</sup> team in the Romanian National Finals (2012)'
-    - '<b>Romanian National Olympiad in Informatics</b>: Gold Medal (2008), Bronze Medal (2010), 1<sup>st</sup> Place (2004), 2<sup>nd</sup> Place (2005), Honorable Mention (2010, 2008, 2007, 2003)'
+    - '<b>Microsoft Imagine Cup</b>:
+       <ul>
+          <li> Top 20 in the World Finals (2012) </li>
+          <li> 1<sup>st</sup> team in the Romanian National Finals (2012) </li>
+       </ul>'
+    - '<b>Romanian National Olympiad in Informatics</b>:
+        <ul>
+          <li> Gold Medal: 2008 </li>
+          <li> Bronze Medal: 2010 </li>
+          <li> 1<sup>st</sup> Place: 2004 </li>
+          <li> 2<sup>nd</sup> Place: 2005 </li>
+          <li> Honorable Mention: 2010, 2008, 2007, 2003 </li>
+        </ul>'
     - 'Kangaroo International Mathematical Competition: 2<sup>nd</sup> prize in Romanian National Finals (2009, 2010)'
 
 - title: Teaching Experience
