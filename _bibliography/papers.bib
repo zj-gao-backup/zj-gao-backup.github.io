@@ -1,5 +1,15 @@
 ---
 ---
+@inproceedings{stretcu2021c2f,
+    title = {Coarse-to-Fine Curriculum Learning},
+    author = {Stretcu, Otilia and Platanios, Emmanouil Antonios and Mitchell, Tom and Póczos, Barnabás},
+    booktitle = {ArXiv Preprint},
+    year = {2021},
+    abbr = {arXiv},
+    arxiv = {2106.04072},
+    abstract = {{When faced with learning challenging new tasks, humans often follow sequences of steps that allow them to incrementally build up the necessary skills for performing these new tasks. However, in machine learning, models are most often trained to solve the target tasks directly.Inspired by human learning, we propose a novel curriculum learning approach which decomposes challenging tasks into sequences of easier intermediate goals that are used to pre-train a model before tackling the target task. We focus on classification tasks, and design the intermediate tasks using an automatically constructed label hierarchy. We train the model at each level of the hierarchy, from coarse labels to fine labels, transferring acquired knowledge across these levels. For instance, the model will first learn to distinguish animals from objects, and then use this acquired knowledge when learning to classify among more fine-grained classes such as cat, dog, car, and truck. Most existing curriculum learning algorithms for supervised learning consist of scheduling the order in which the training examples are presented to the model. In contrast, our approach focuses on the output space of the model. We evaluate our method on several established datasets and show significant performance gains especially on classification problems with many labels. We also evaluate on a new synthetic dataset which allows us to study multiple aspects of our method.}},
+}
+
 @inproceedings{braintasks2020,
     title = {Modeling Task Effects on Meaning Representation in the Brain via Zero-Shot MEG Prediction},
     author = {Toneva<nobr><em>*</em></nobr>, Mariya and Stretcu<nobr><em>*</em></nobr>, Otilia and Póczos, Barnabás and Wehbe, Leila and Mitchell, Tom},
@@ -28,7 +38,7 @@
 }
 
 @inproceedings{stretcu2020baics,
-    title = {Coarse-to-Fine Curriculum Learning},
+    title = {Coarse-to-Fine Curriculum Learning for Classification},
     author = {Stretcu, Otilia and Platanios, Emmanouil Antonios and Mitchell, Tom and Póczos, Barnabás},
     booktitle = {International Conference on Learning Representations (ICLR) Workshop on Bridging AI and Cognitive Science (BAICS)},
     year = {2020},
