@@ -21,12 +21,13 @@
       <h5 class="title mb-0">{{entry.title}}.</h5>
       <div class="author">
         {% for author in entry.author_array %}
+          {% assign name = author.first | append: ' ' | append: author.last %}
           {% if forloop.length == 1 %}
             {% if author.last contains site.scholar.last_name %}
               <nobr><em>{{author.first}} {{author.last}}</em>.</nobr>
             {% else %}
-              {% if site.data.coauthors[author.last] %}
-                <nobr><a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>.</nobr>
+              {% if site.data.coauthors[name] %}
+                <nobr><a href="{{site.data.coauthors[name].url}}" target="_blank">{{author.first}} {{author.last}}</a>.</nobr>
               {% else %}
                 <nobr>{{author.first}} {{author.last}},</nobr>
               {% endif %}
@@ -36,8 +37,8 @@
               {% if author.last contains site.scholar.last_name %}
                 <nobr><em>{{author.first}} {{author.last}}</em>,</nobr>
               {% else %}
-                {% if site.data.coauthors[author.last] %}
-                  <nobr><a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>,</nobr>
+                {% if site.data.coauthors[name] %}
+                  <nobr><a href="{{site.data.coauthors[name].url}}" target="_blank">{{author.first}} {{author.last}}</a>,</nobr>
                 {% else %}
                   <nobr>{{author.first}} {{author.last}},</nobr>
                 {% endif %}
@@ -47,8 +48,8 @@
               {% if author.last == site.scholar.last_name %}
                 <nobr><em>{{author.first}} {{author.last}}</em>.</nobr>
               {% else %}
-                {% if site.data.coauthors[author.last] %}
-                  <nobr><a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>.</nobr>
+                {% if site.data.coauthors[name] %}
+                  <nobr><a href="{{site.data.coauthors[name].url}}" target="_blank">{{author.first}} {{author.last}}</a>.</nobr>
                 {% else %}
                   <nobr>{{author.first}} {{author.last}}</nobr>
                 {% endif %}

@@ -1,5 +1,49 @@
 ---
 ---
+@inproceedings{scaling_up_llm,
+  title={Scaling Up LLM Reviews for Google Ads Content Moderation},
+  author={Qiao, Wei and Dogra, Tushar and Stretcu, Otilia and Lyu, Yu-Han and Fang, Tiantian and Kwon, Dongjin and Lu, Chun-Ta and Luo, Enming and Wang, Yuan and Chia, Chih-chun and Fuxman, Ariel and Wang, Noah and Krishna, Ranjay and Tek, Mehmet
+  },
+  booktitle={{Industry Day Proceedings of the 17th ACM International Conference on Web Search and Data Mining (WSDM)}},
+  year={2024},
+  abbr = {WSDM},
+  abstract={{Large language models (LLMs) are powerful tools for content moderation, but their inference costs and latency make them prohibitive for casual use on large datasets, such as the Google Ads repository. This study proposes a method for scaling up LLM reviews for content moderation in Google Ads. First, we use heuristics to select candidates via filtering and duplicate removal, and create clusters of ads for which we select one representative ad per cluster. We then use LLMs to review only the representative ads. Finally, we propagate the LLM decisions for the representative ads back to their clusters. This method reduces the number of reviews by more than 3 orders of magnitude while achieving a 2x recall compared to a baseline non-LLM model. The success of this approach is a strong function of the representations used in clustering and label propagation; we found that cross-modal similarity representations yield better results than uni-modal representations.}},
+}
+
+@inproceedings{obfuscation_benchmark,
+  title={Benchmarking Robustness to Adversarial Image Obfuscations},
+  author={Stimberg, Florian and Chakrabarti, Ayan and Lu, Chun-Ta and Hazimeh, Hussein and Stretcu, Otilia and Qiao, Wei and Liu, Yintao and Kaya, Merve and Rashtchian,Cyrus and Fuxman, Ariel and Tek, Mehmet and Gowal, Sven
+  },
+  booktitle={Proceedings of the Thirty-Seventh Conference on Neural Information Processing Systems},
+  year={2023},
+  abbr = {NeurIPS},
+  code= {https://github.com/google-deepmind/image_obfuscation_benchmark},
+  arxiv = {2301.12993},
+  pdf = {obfuscation_benchmark/obfuscation_benchmark.pdf},
+  abstract={{Automated content filtering and moderation is an important tool that allows online platforms to build striving user communities that facilitate cooperation and prevent abuse. Unfortunately, resourceful actors try to bypass automated filters in a bid to post content that violate platform policies and codes of conduct. To reach this goal, these malicious actors may obfuscate policy violating images (e.g. overlay harmful images by carefully selected benign images or visual patterns) to prevent machine learning models from reaching the correct decision. In this paper, we invite researchers to tackle this specific issue and present a new image benchmark. This benchmark, based on ImageNet, simulates the type of obfuscations created by malicious actors. It goes beyond ImageNet-C and ImageNet-C¯ by proposing general, drastic, adversarial modifications that preserve the original content intent. It aims to tackle a more common adversarial threat than the one considered by Lp-norm bounded adversaries. We evaluate 33 pretrained models on the benchmark and train models with different augmentations, architectures and training methods on subsets of the obfuscations to measure generalization. We hope this benchmark will encourage researchers to test their models and methods and try to find new approaches that are more robust to these obfuscations.}},
+}
+
+
+@inproceedings{agile_modeling,
+  title={Agile Modeling: From Concept to Classifier in Minutes},
+  author={Stretcu<nobr><em>*</em></nobr>, Otilia and Vendrow<nobr><em>*</em></nobr>, Edward and Hata<nobr><em>*</em></nobr>, Kenji and
+          Viswanathan, Krishnamurthy and Ferrari, Vittorio and Tavakkol, Sasan
+          and Zhou, Wenlei and Avinash, Aditya and Luo, Enming and
+          Alldrin, Neil Gordon and Bateni, MohammadHossein and Berger, Gabriel
+          and Bunner, Andrew and Lu, Chun-Ta and Rey, Javier A and
+          DeSalvo, Giulia and Krishna, Ranjay and Fuxman, Ariel
+  },
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer
+             Vision, {ICCV} 2023, Paris, France, October 2-6, 2023},
+  year={2023},
+  abbr = {ICCV},
+  video = {https://youtu.be/ctZuQq87tss},
+  code= {https://github.com/google-research/google-research/tree/master/agile_modeling},
+  pdf = {agile/Agile_Modeling_From_Concept_to_Classifier_in_Minutes_ICCV_2023_paper.pdf},
+  poster = {agile/ICCV_2023_Poster_Agile Modeling.pdf},
+  abstract={{The application of computer vision methods to nuanced, subjective concepts is growing. While crowdsourcing has served the vision community well for most objective tasks (such as labeling a “zebra”), it now falters on tasks where there is substantial subjectivity in the concept (such as identifying “gourmet tuna”). However, empowering any user to develop a classifier for their concept is technically difficult: users are neither machine learning experts nor have the patience to label thousands of examples. In reaction, we introduce the problem of Agile Modeling: the process of turning any subjective visual concept into a computer vision model through real-time user-in-the-loop interactions. We instantiate an Agile Modeling prototype for image classification and show through a user study (N=14) that users can create classifiers with minimal effort in under 30 minutes. We compare this user driven process with the traditional crowdsourcing paradigm and find that the crowd’s notion often differs from that of the user’s, especially as the concepts become more subjective. Finally, we scale our experiments with simulations of users training classifiers for ImageNet21k categories to further demonstrate the efficacy of the approach.}},
+}
+
 @inproceedings{stretcu2021c2f,
     title = {Coarse-to-Fine Curriculum Learning},
     author = {Stretcu, Otilia and Platanios, Emmanouil Antonios and Mitchell, Tom and Póczos, Barnabás},

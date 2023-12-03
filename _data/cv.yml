@@ -56,8 +56,13 @@
 - title: Work Experience
   type: table
   contents:
+  - title: 'Senior Research Scientist at Google AI'
+    year: 2023 - now
+    location: USA
+    description:
+      - 'Mountain View, CA, USA'
   - title: 'Research Scientist at Google AI'
-    year: 2021 - now
+    year: 2021 - 2023
     location: USA
     description:
       - 'Mountain View, CA, USA'
